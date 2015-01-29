@@ -54,14 +54,17 @@ h1{
 
 
 #nav_list li{
-margin: auto 0;
-width: 100%;
-display: inline-block;
-float: left;
+	margin: auto 0;
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+#footer_icons{
+	text-align: center;
 }
 
 #footer_icons li{
-display: inline-block;
+	display: inline-block;
 }
 
 li, a{
