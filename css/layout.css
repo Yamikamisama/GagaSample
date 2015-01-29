@@ -7,14 +7,14 @@ body{
 #header{
 	height:7em;
 	width:95%;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	margin: 2% 2.5%
 }
 
 #left_nav{
 	height:30em;
 	width:15%;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	margin-left: 2.5%;
 	float: left;
 }
@@ -22,7 +22,7 @@ body{
 #center_carousel{
 	height:30em;
 	width:59%;
-	border: 1px solid red;
+	border: 3px solid black;
 	float: left;
 	margin-left: 2.5%;
 }
@@ -30,7 +30,7 @@ body{
 #right_twitter{
 	height:30em;
 	width:15%;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	float: left;
 	margin: auto 2.5%;
 
@@ -39,9 +39,10 @@ body{
 #footer{
 	height:5em;
 	width:95%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	display: inline-block;
 	margin: 2% 2.5%;
+	margin-top: 5%;
 }
 
 
@@ -69,6 +70,7 @@ h2{
 }
 #footer_icons{
 	text-align: center;
+	padding: 0;
 }
 
 #footer_icons li{
@@ -87,4 +89,8 @@ li, a{
     display: block;
     width: 100%;
     height: auto;
+}
+
+.owl-theme .owl-controls{
+	margin-top: -20;
 }
