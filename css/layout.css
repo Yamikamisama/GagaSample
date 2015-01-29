@@ -54,7 +54,8 @@ h1{
 }
 
 h2{
-	font-size: 2em;
+	font-size: 2.5em;
+	margin: 0;
 }
 
 #nav_list li{
@@ -62,12 +63,21 @@ h2{
 	text-align: center;
 	margin-left: -23px;
 	width: 100%;
-	height: 100px;
 	display: inline-block;
 	float: left;
 	border: 3px solid black;
-
+	background-color: white;
+	color: white;
+	margin-bottom: 10px;
+	transition: background-color 1s;
 }
+
+#nav_list :hover{
+	transition: background-color 1s;
+	color: white;
+	background-color: black;
+}
+
 #footer_icons{
 	text-align: center;
 	padding: 0;
