@@ -78,6 +78,10 @@ h2{
 	background-color: black;
 }
 
+#nav_list :visited{
+	color: black;
+}
+
 #footer_icons{
 	text-align: center;
 	padding: 0;
