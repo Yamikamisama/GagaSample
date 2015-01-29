@@ -52,3 +52,18 @@ h1{
 	margin: 0;
 }
 
+
+#nav_list li{
+margin: auto 0;
+width: 100%;
+display: inline-block;
+float: left;
+}
+
+#footer_icons li{
+display: inline-block;
+}
+
+li, a{
+	text-decoration: none;
+}
