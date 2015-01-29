@@ -1,0 +1,33 @@
+#header{
+	height:10em;
+	width:100%;
+	background-color: red;
+}
+
+#left_nav{
+	height:30em;
+	width:15%;
+	background-color: yellow;
+	float: left;
+}
+
+#center_carousel{
+	height:30em;
+	width:60%;
+	background-color: pink;
+	float: left;
+}
+
+#right_twitter{
+	height:30em;
+	width:15%;
+	background-color: orange;
+	float: left;
+}
+
+#footer{
+	height:5em;
+	width:100%;
+	background-color: blue;
+	display: inline-block;
+}
