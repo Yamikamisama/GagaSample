@@ -9,6 +9,7 @@
 	width:15%;
 	background-color: yellow;
 	float: left;
+	margin-left: 2.5%;
 }
 
 #center_carousel{
@@ -16,6 +17,7 @@
 	width:60%;
 	background-color: pink;
 	float: left;
+	margin-left: 2.5%;
 }
 
 #right_twitter{
@@ -23,6 +25,8 @@
 	width:15%;
 	background-color: orange;
 	float: left;
+	margin: auto 2.5%;
+
 }
 
 #footer{
