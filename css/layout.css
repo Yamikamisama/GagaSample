@@ -12,7 +12,7 @@ body{
 }
 
 #left_nav{
-	height:30em;
+	height:25em;
 	width:15%;
 /*	border: 1px solid red;*/
 	margin-left: 2.5%;
@@ -28,23 +28,13 @@ body{
 }
 
 #right_twitter{
-	height:30em;
+	height:31em;
 	width:15%;
 /*	border: 1px solid red;*/
 	float: left;
 	margin: auto 2.5%;
 
 }
-
-#footer{
-	height:5em;
-	width:95%;
-	/*border: 1px solid red;*/
-	display: inline-block;
-	margin: 2% 2.5%;
-	margin-top: 5%;
-}
-
 
 h1{
 	font-family: 'Oswald', sans-serif;
@@ -55,6 +45,10 @@ h1{
 
 h2{
 	font-size: 2.5em;
+	margin: 0;
+}
+
+#nav_list{
 	margin: 0;
 }
 
@@ -85,10 +79,15 @@ h2{
 #footer_icons{
 	text-align: center;
 	padding: 0;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	margin-left: 5%;
 }
 
 #footer_icons li{
 	display: inline-block;
+	float: left;
 }
 
 li, a{
@@ -96,7 +95,7 @@ li, a{
 }
 
 .twitter-timeline{
-	height: 30em;
+	height: 30.4em;
 }
 
 #owl-demo .item img{
