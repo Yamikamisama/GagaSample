@@ -15,5 +15,8 @@ $(document).ready(function() {
       // itemsMobile : false
 
   });
-
+  $("#bio_link").hover(function(){
+    $("#owl-demo").hide();
+    $("#bio").fadeIn(2000);
+  });
 });

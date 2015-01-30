@@ -44,10 +44,32 @@ h1{
 }
 
 h2{
+	font-family: 'Oswald', sans-serif;
 	font-size: 2.5em;
 	margin: 0;
 }
 
+h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+#bio{
+	display:none;
+	font-size: 1.1em;
+	padding: 0 2.5%;
+	height:30em;
+}
+#music{
+	display:none;
+	font-size: 1.1em;
+	padding: 0 2.5%;
+	height:30em;
+}
+}
 #nav_list{
 	margin: 0;
 }
