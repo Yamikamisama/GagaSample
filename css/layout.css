@@ -66,8 +66,7 @@ p{
 #music{
 	display:none;
 	font-size: 1.1em;
-	padding: 0 2.5%;
-	height:27.25em;
+	padding: 1.25% 2.5%;
 	background:rgba(0,0,0,0.6);
 }
 #nav_list{
