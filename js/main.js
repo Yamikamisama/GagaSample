@@ -15,12 +15,20 @@ $(document).ready(function() {
       // itemsMobile : false
 
   });
-  $("#bio_link").hover(function(){
+  $("#bio_link").click(function(){
     $("#center_carousel").children().hide();
-    $("#bio").fadeIn(2000);
+    $("#bio").fadeIn(1000);
   });
-  $("#music_link").hover(function(){
+  $("#music_link").click(function(){
     $("#center_carousel").children().hide();
-    $("#music").fadeIn(2000);
+    $("#music").fadeIn(1000);
+  });
+   $("#video_link").click(function(){
+    $("#center_carousel").children().hide();
+    $("#video").fadeIn(1000);
+  });
+    $("#pictures_link").click(function(){
+    $("#center_carousel").children().hide();
+    $("#owl-demo").fadeIn(1000);
   });
 });
