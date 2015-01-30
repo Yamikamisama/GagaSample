@@ -67,8 +67,8 @@ p{
 	display:none;
 	font-size: 1.1em;
 	padding: 0 2.5%;
-	height:30em;
-}
+	height:27.25em;
+	background:rgba(0,0,0,0.6);
 }
 #nav_list{
 	margin: 0;

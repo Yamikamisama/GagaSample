@@ -16,7 +16,11 @@ $(document).ready(function() {
 
   });
   $("#bio_link").hover(function(){
-    $("#owl-demo").hide();
+    $("#center_carousel").children().hide();
     $("#bio").fadeIn(2000);
+  });
+  $("#music_link").hover(function(){
+    $("#center_carousel").children().hide();
+    $("#music").fadeIn(2000);
   });
 });
