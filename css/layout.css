@@ -103,6 +103,8 @@ li, a{
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
+		height: 30em;
 }
 
 .owl-theme .owl-controls{
