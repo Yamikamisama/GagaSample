@@ -78,6 +78,9 @@
     #footer_icons li {
         width: 10%;
     }
+        #bio{
+        height: 20em;
+    }
 }
 
 
@@ -106,9 +109,6 @@
         width: 100%;
         height: 350px;
     }
-    #bio{
-        height: 20em;
-    }
 }
 
 
@@ -118,21 +118,21 @@
 @media only screen and (max-width: 570px) {
     #center_view {
         width: 95%;
-        height: 350px;
-        margin: -100% 2.5% 0 2.5%;
+        height: 250px;
+        margin: -88% 2.5% 0 2.5%;
     }
     #small {
         display: none;
     }
     #owl-demo .item img {
         width: 100%;
-        height: 350px;
+        height: 250px;
     }
      #left_nav h2 {
-        font-size: 3em;
+        font-size: 1em;
     }
     #footer_icons {
-        margin: 92% 0 0 25%
+        margin: 84% 0 0 25%
     }
     h1{}
 }
