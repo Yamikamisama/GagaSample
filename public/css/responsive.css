@@ -119,7 +119,7 @@
     #center_view {
         width: 95%;
         height: 250px;
-        margin: -88% 2.5% 0 2.5%;
+        margin: -100% 2.5% 0 2.5%;
     }
     #small {
         display: none;
@@ -132,7 +132,7 @@
         font-size: 1em;
     }
     #footer_icons {
-        margin: 84% 0 0 25%
+        margin: 95% 0 0 25%
     }
     h1{
         font-size:3em;
