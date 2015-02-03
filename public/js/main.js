@@ -23,7 +23,7 @@ $(document).ready(function() {
     $("#video").fadeIn(1000);
   });
 
-  $("#pictures_link").click(function(){
+  $(".pictures_link").click(function(){
     $("#center_view").children().hide();
     $("#owl-demo").fadeIn(1000);
   });
