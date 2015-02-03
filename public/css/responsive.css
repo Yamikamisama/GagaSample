@@ -52,7 +52,7 @@
 	}
 }
 
-@media only screen and (max-width: 641px) {
+@media only screen and (max-width: 640px) {
 
 	#right_twitter, #left_nav {display: none}
 	#center_view{
