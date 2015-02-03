@@ -9,7 +9,7 @@ This an example of my work,  I have included the wireframes so that you can see 
 ###Div % and height ems
 ![](gaga_div.png)
 ###Mockup of Site
-![](Mock for site.png.png)
+![](mock.png)
 ###Finished Product
 ![](gaga_thumb.png)
 
