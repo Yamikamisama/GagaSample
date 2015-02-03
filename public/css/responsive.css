@@ -98,6 +98,9 @@
         width: 100%;
         height: 350px;
     }
+    #bio{
+        height: 20em;
+    }
 }
 
 
