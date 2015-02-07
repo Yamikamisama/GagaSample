@@ -82,27 +82,14 @@
     </div>
 
     <div id="right_twitter">
-        <a class="twitter-timeline" href="https://twitter.com/ladygaga" data-widget-id="560680329799663616">Tweets by @ladygaga</a>
-        <script>
-        ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-                p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, "script", "twitter-wjs");
-        </script>
+        <h4>LADY GAGA TWEETS</h4>
+        <ul>
+        <% tweets.each_with_index do |tweet, index| %>
+        <p>Lady Gaga @ladygaga</p>
+        <li><%= "#{index + 1}: #{tweet.text}" %></li>
+        <br>
+        <% end %>
+        </ul>
     </div>
-</div>
 
-<div class="container tweets">
-  <h1>Here are your tweets!</h1>
-  <ul>
-  <% tweets.each do |tweet| %>
-    <li><%= tweet.text %></li>
-  <% end %>
-  </ul>
 </div>
