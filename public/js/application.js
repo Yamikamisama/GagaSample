@@ -1,46 +1,59 @@
 $(document).ready(function() {
 
+//////////////////
+//   Carousel   //
+//////////////////
 
-    //Carousel How it works
-    var listItems = $("#items").children('li'),
-        activeImageItems = $('#activeImages').children('li'),
-        listLength = listItems.length,
-        current,
-        changeTimeout;
+var listItems = $("#items").children('li'),
+    activeImageItems = $('#activeImages').children('li'),
+    listLength = listItems.length,
+    current,
+    changeTimeout;
 
-    function move(newIndex) {
+function move(newIndex) {
 
-        var i = (current < listLength - 1) ? (current + 1) : 0;
+  var i = (current < listLength - 1) ? (current + 1) : 0;
 
-        activeImageItems.removeClass('active')
-            .eq(i).addClass('active');
+  activeImageItems.removeClass('active').eq(i).addClass('active');
+  listItems.fadeOut(400).eq(i).fadeIn(400);
 
-        listItems.fadeOut(400)
-            .eq(i).fadeIn(400);
+  current = i;
 
-        current = i;
+  clearTimeout(changeTimeout);
+  changeTimeout = setTimeout(function() {move('next');}, 4000);
+};
 
-        clearTimeout(changeTimeout);
-        changeTimeout = setTimeout(function() {
-            move('next');
-        }, 4000);
-    };
+// Allow circle to be clicked
+$("#activeImages li").click(function() {
+    var i = $('#activeImages li').index(this);
+    move(i);
+});
 
-    // Allow circle to be clicked
-    $("#activeImages li").click(function() {
-        var i = $('#activeImages li').index(this);
-        move(i);
-    });
-
-    //Start Carousel
-    move('next');
+//Start Carousel
+move('next');
 
 
+$("#bio_link").click(function() {
+    $("#center_view").children().hide();
+    $("#bio").fadeIn(1000);
+});
 
+$("#music_link").click(function() {
+    $("#center_view").children().hide();
+    $("#music").fadeIn(1000);
+});
 
+$("#video_link").click(function() {
+    $("#center_view").children().hide();
+    $("#video").fadeIn(1000);
+});
 
+$(".pictures_link").click(function() {
+    $("#center_view").children().hide();
+    $("#carousel").fadeIn(1000);
+});
 
-
+});
     // var  xmlhttp = new XMLHttpRequest();
     // var url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
     // xmlhttp.open('GET',url,true);
@@ -89,30 +102,6 @@ $(document).ready(function() {
     //   xhr.onerror = function() {
     //     alert('Not Working, Look in console for errors');
     //   };
-
-
     // }
 
     // makeCorsRequest();
-
-    $("#bio_link").click(function() {
-        $("#center_view").children().hide();
-        $("#bio").fadeIn(1000);
-    });
-
-    $("#music_link").click(function() {
-        $("#center_view").children().hide();
-        $("#music").fadeIn(1000);
-    });
-
-    $("#video_link").click(function() {
-        $("#center_view").children().hide();
-        $("#video").fadeIn(1000);
-    });
-
-    $(".pictures_link").click(function() {
-        $("#center_view").children().hide();
-        $("#carousel").fadeIn(1000);
-    });
-
-});
