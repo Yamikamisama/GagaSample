@@ -23,12 +23,6 @@ function move(newIndex) {
   changeTimeout = setTimeout(function() {move('next');}, 4000);
 };
 
-// Allow circle to be clicked
-$("#activeImages li").click(function() {
-    var i = $('#activeImages li').index(this);
-    move(i);
-});
-
 //Start Carousel
 move('next');
 
@@ -54,6 +48,11 @@ $(".pictures_link").click(function() {
 });
 
 });
+
+////////////////////
+///   CORS Try   ///
+////////////////////
+
     // var  xmlhttp = new XMLHttpRequest();
     // var url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
     // xmlhttp.open('GET',url,true);
