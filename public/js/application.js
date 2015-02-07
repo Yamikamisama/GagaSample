@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 // makeCorsRequest();
 
-  $("#owl-demo").owlCarousel({
+  $("#carousel").owlCarousel({
 
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(".pictures_link").click(function(){
     $("#center_view").children().hide();
-    $("#owl-demo").fadeIn(1000);
+    $("#carousel").fadeIn(1000);
   });
 
   $(function() {
