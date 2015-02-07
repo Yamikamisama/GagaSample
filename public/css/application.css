@@ -188,6 +188,26 @@ li, a{
   max-height:100%;
 }
 
+
+#activeImages {
+  list-style:none;
+  padding:0px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+#activeImages li {
+  display:inline-block;
+  border-radius:10px;
+  width:10px;
+  height:10px;
+  margin: 0 5px;
+  border:2px solid #000;
+  background: white;
+}
+#activeImages .active {
+  background:grey;
+}
+
 #music iframe{
     height: 100%;
 }

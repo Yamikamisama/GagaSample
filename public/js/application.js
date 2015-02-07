@@ -12,7 +12,9 @@ var listItems = $("#items").children('li'),
 
 function move(newIndex) {
 
-  var i = (current < listLength - 1) ? (current + 1) : 0;
+  var i = newIndex;
+
+  if (newIndex == 'next') {i = (current < listLength - 1) ? (current + 1) : 0;}
 
   activeImageItems.removeClass('active').eq(i).addClass('active');
   listItems.fadeOut(400).eq(i).fadeIn(400);
@@ -22,6 +24,12 @@ function move(newIndex) {
   clearTimeout(changeTimeout);
   changeTimeout = setTimeout(function() {move('next');}, 4000);
 };
+
+// Allow circle to be clicked
+$("#activeImages li").click(function() {
+    var i = $('#activeImages li').index(this);
+    move(i);
+});
 
 //Start Carousel
 move('next');
