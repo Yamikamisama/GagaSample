@@ -84,9 +84,8 @@
     <div id="right_twitter">
         <h4>LADY GAGA TWEETS</h4>
         <ul>
-        <% tweets.each_with_index do |tweet, index| %>
-        <p>Lady Gaga @ladygaga</p>
-        <li><%= "#{index + 1}: #{tweet.text}" %></li>
+        <% tweets.each do |tweet| %>
+        <li><%= "@ladygaga: #{tweet.text}" %></li>
         <br>
         <% end %>
         </ul>
