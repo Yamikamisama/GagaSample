@@ -4,8 +4,5 @@ get '/' do
     @user.fetch_tweets!
   end
   @tweets = @user.tweets.last(10)
-
-  erb :index, locals:{tweets: @tweets}
-
-  # erb :index
+  erb :index
 end

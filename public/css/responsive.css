@@ -1,6 +1,7 @@
 /********************/
 /*   Huge screens   */
 /********************/
+
 @media only screen and (max-width: 1440px) {
     .owl-item {
         width: 100%
@@ -9,11 +10,10 @@
         display: none;
     }
 }
-
-
 /*****************************/
 /*   normal desktop screen   */
 /*****************************/
+
 @media only screen and (max-width: 1300px) {
     .owl-item {
         width: 100%
@@ -36,11 +36,10 @@
     width: 100%;
     height: 414px;
 }
-
-
 /************************/
 /*   ipad and Tablets   */
 /************************/
+
 @media only screen and (max-width: 1020px) {
     #right_twitter {
         display: none
@@ -72,18 +71,17 @@
     #footer_icons {
         display: none;
     }
-    #bio{
+    #bio {
         height: 20em;
     }
-    #activeImages{
+    #activeImages {
         margin: -35px 0 0 0;
     }
 }
-
-
 /*************************/
 /*   iphone breakpoint   */
 /*************************/
+
 @media only screen and (max-width: 640px) {
     #center_view {
         height: 350px;
@@ -91,7 +89,7 @@
     #small {
         display: none;
     }
-    #left_nav{
+    #left_nav {
         margin-left: 2.5%;
     }
     #center_view {
@@ -102,7 +100,7 @@
     #footer_icons {
         margin: 70% 0 0 25%
     }
-    #activeImages{
+    #activeImages {
         margin: -35px 0 0 0;
     }
     #carousel #items li img {
@@ -110,11 +108,10 @@
         height: 350px;
     }
 }
-
-
 /*********************/
 /*   Small Devices   */
 /*********************/
+
 @media only screen and (max-width: 570px) {
     #center_view {
         width: 95%;
@@ -128,16 +125,16 @@
         width: 100%;
         height: 250px;
     }
-     #left_nav h2 {
+    #left_nav h2 {
         font-size: 1em;
     }
-    #activeImages{
+    #activeImages {
         margin: -142px 0 0 0;
     }
-    h1{
-        font-size:3em;
+    h1 {
+        font-size: 3em;
     }
-     #bio{
+    #bio {
         height: 14em;
     }
 }

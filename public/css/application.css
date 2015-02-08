@@ -118,7 +118,7 @@ p {
     color: black;
 }
 #footer_icons {
-	position: relative;
+    position: relative;
     text-align: center;
     width: 216px;
     padding: 0 5%;
@@ -132,7 +132,6 @@ p {
     height: 50px;
     width: 25%;
 }
-
 li, a {
     text-decoration: none;
 }
@@ -184,44 +183,24 @@ li, a {
 #video iframe {
     height: 100%;
 }
-
-
-
-
-
-
 /*ICONS*/
 
-#twitter_icon{
-
-  background: url("../imgs/gaga_icons/icon_sheet.png") 0 -102px;
-  background-repeat: no-repeat;
-
+#twitter_icon {
+    background: url("../imgs/gaga_icons/icon_sheet.png") 0 -102px;
+    background-repeat: no-repeat;
 }
-#facebook_icon{
-
-  background: url("../imgs/gaga_icons/icon_sheet.png") 0 0;
-  background-repeat: no-repeat;
-
+#facebook_icon {
+    background: url("../imgs/gaga_icons/icon_sheet.png") 0 0;
+    background-repeat: no-repeat;
 }
-#flickr_icon{
-
-  background: url("../imgs/gaga_icons/icon_sheet.png") 0 -51px;
-  background-repeat: no-repeat;
-
+#flickr_icon {
+    background: url("../imgs/gaga_icons/icon_sheet.png") 0 -51px;
+    background-repeat: no-repeat;
 }
-
-#vimeo_icon{
-
-  background: url("../imgs/gaga_icons/icon_sheet.png") 0 -153px;
-  background-repeat: no-repeat;
+#vimeo_icon {
+    background: url("../imgs/gaga_icons/icon_sheet.png") 0 -153px;
+    background-repeat: no-repeat;
 }
-
-
-
-
-
-
 /*WIGGLE EFFECT*/
 
 @-ms-keyframes wiggle {
@@ -274,6 +253,3 @@ a.wiggle-me:hover {
     -webkit-animation: wiggle .3s 2;
     animation: wiggle .3s 2;
 }
-
-
-
