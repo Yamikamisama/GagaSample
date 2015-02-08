@@ -28,7 +28,7 @@ body {
 }
 #right_twitter {
     height: 26em;
-    width: 15%;
+    width: 13%;
     /*	border: 1px solid red;*/
 
     float: left;
@@ -120,9 +120,9 @@ p {
 #footer_icons {
 	position: relative;
     text-align: center;
-    width: 90%;
+    width: 216px;
     padding: 0 5%;
-    margin: 0;
+    margin: 0 0 0 -16px;
     display: inline-block;
     float: left;
 }
@@ -132,9 +132,7 @@ p {
     height: 50px;
     width: 25%;
 }
-#footer_icons img {
-    width: 100%;
-}
+
 li, a {
     text-decoration: none;
 }
@@ -197,19 +195,26 @@ li, a {
 #twitter_icon{
 
   background: url("../imgs/gaga_icons/icon_sheet.png") 0 -102px;
+  background-repeat: no-repeat;
+
 }
 #facebook_icon{
-	left:0;
+
   background: url("../imgs/gaga_icons/icon_sheet.png") 0 0;
+  background-repeat: no-repeat;
+
 }
 #flickr_icon{
-	left:0;
+
   background: url("../imgs/gaga_icons/icon_sheet.png") 0 -51px;
+  background-repeat: no-repeat;
+
 }
 
 #vimeo_icon{
-	left:0;
+
   background: url("../imgs/gaga_icons/icon_sheet.png") 0 -153px;
+  background-repeat: no-repeat;
 }
 
 
