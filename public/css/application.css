@@ -109,7 +109,7 @@ p {
     margin-bottom: 10px;
     transition: background-color .5s;
 }
-#nav_list:hover {
+#nav_list li a h2:hover {
     transition: background-color .5s;
     color: white;
     background-color: black;
@@ -159,13 +159,13 @@ li, a {
     width: 100%;
     max-height: 100%;
 }
-#activeImages {
+#selector {
     list-style: none;
     padding: 0px;
     margin-bottom: 8px;
     text-align: center;
 }
-#activeImages li {
+#selector li {
     display: inline-block;
     border-radius: 10px;
     width: 10px;
@@ -174,7 +174,7 @@ li, a {
     border: 2px solid #000;
     background: white;
 }
-#activeImages .active {
+#selector .active {
     background: grey;
 }
 #music iframe {
