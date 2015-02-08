@@ -1,7 +1,7 @@
 #GAGA SAMPLE SITE
 
 ###Description:
-This an example of my work,  I have included the wireframes so that you can see my process, I have also made this site in two versions a Lady Gaga Version (click here to view), and The Lego Movie Version (click here to view) to show that my designs and functionallity translates to any "product".  I hope you enjoy them and please feel free to contact me with suggestions.  
+This an example of my work,  I have included the wireframes so that you can see my process, I have also made this site in two versions a Lady Gaga Version ([click here to view](http://gagalicious.herokuapp.com/)), and The Lego Movie Version ([click here to view](http://everythingisawesome.herokuapp.com/#)) to show that my designs and functionallity translates to any "product".  I hope you enjoy them and please feel free to contact me with suggestions.
 
 
 ###Original wireframe

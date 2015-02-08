@@ -5,7 +5,7 @@ $(document).ready(function() {
     //////////////////
 
     var listItems = $("#items").children('li'),
-        activeImageItems = $('#activeImages').children('li'),
+        activeImageItems = $('#selector').children('li'),
         listLength = listItems.length,
         current,
         changeTimeout;
@@ -30,8 +30,8 @@ $(document).ready(function() {
     };
 
     // Allow circle to be clicked
-    $("#activeImages li").click(function() {
-        var i = $('#activeImages li').index(this);
+    $("#selector li").click(function() {
+        var i = $('#selector li').index(this);
         move(i);
     });
 
